@@ -11,7 +11,7 @@ class CephClient < Formula
     sha256 "156ccf908126ab48fdabc8887e0cd2f6555dd6b8d78a3bc117a4275ca6d2161a" => :mojave
   end
 
-  depends_on :osxfuse
+  depends_on "osxfuse"
   depends_on "openssl" => :build
   depends_on "cmake" => :build
   depends_on "cython" => :build
